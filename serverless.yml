@@ -1,0 +1,8 @@
+service: serverless-plugin-typescript-package-issue
+plugins:
+  - serverless-plugin-typescript
+provider:
+  name: aws
+functions:
+  hello:
+    handler: handler.hello

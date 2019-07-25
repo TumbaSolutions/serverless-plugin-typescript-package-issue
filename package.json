@@ -1,0 +1,27 @@
+{
+  "name": "serverless-plugin-typescript-package-issue",
+  "version": "0.0.1",
+  "description": "minimalistic serverless service to show serverless-plugin-typescript packaging issue when local module is used as dependency",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TumbaSolutions/serverless-plugin-typescript-package-issue"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "sls": "sls"
+  },
+  "engines": {
+    "node": ">=8.10"
+  },
+  "dependencies": {
+    "serverless-plugin-typescript-package-issue-local-module": "file:serverless-plugin-typescript-package-issue-local-module"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.31",
+    "@types/node": "^8.10.51",
+    "serverless": "^1.48.3",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^3.5.3"
+  }
+}
